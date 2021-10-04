@@ -1,1 +1,5 @@
-<h1>Báo đen (Khưa)</h1>
+<section className="section">
+  <div className="container">
+    <p>Báo đen (Khưa)</p>
+  </div>
+</section>

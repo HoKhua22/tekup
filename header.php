@@ -11,9 +11,15 @@
 </head>
 
 <body>
-  <header>
-    <div class="container">
-      Đây là Header nhé
+  <header id="header" class="nk-header">
+    <div class="header-main">
+      <div class="header-container container">
+        <p>Header</p>
+      </div>
+    </div>
+    <div class="header-banner">
+
       <?php get_template_part('template-parts/home/home', 'banner'); ?>
+
     </div>
   </header>
