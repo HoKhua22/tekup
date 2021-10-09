@@ -2,5 +2,11 @@
  Theme Name: Tekup_Theme
  Author: Fox_Team
  Version: 1.0.0
+ Description: This is the client website
+ Tags: carousel, slider
 **/
+
+body{
+    font-family: Barlow;
+}
 
