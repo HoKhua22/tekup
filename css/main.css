@@ -22,7 +22,308 @@
 --  04.01 Tekup Banner (Nam)
 --  04.02 The most perfect service (Hoa)
 --  04.03 Our services (Quỳnh)
---  04.04 Báo đen (Khưa)
+/* tab */
+/*  */
+.home_containerServices {
+  max-width: 1283px;
+  margin-bottom: 56px;
+}
+.home_titleServices {
+  max-width: 57px;
+  font-family: Barlow;
+  /* font-style: normal; */
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+}
+.home_underTitleServices {
+  max-width: 609px;
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 74px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  letter-spacing: -0.01em;
+}
+.home_contentOfTitleServices {
+  max-width: 631px;
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 34px;
+}
+.tab {
+  float: left;
+  width: 30%;
+  height: 300px;
+}
+
+.tab div:hover {
+  background: whitesmoke;
+  border-radius: 4px solid white;
+}
+.tab div:hover > div {
+  background: rgb(161, 161, 161);
+  border-radius: 1px solid white;
+}
+.tab div:hover > div > img {
+  background-color: #f8d000;
+}
+.home_titleTabs:hover {
+  color: #000;
+}
+
+.home_imageTabs:hover {
+  color: #f8d000;
+}
+.tablinks {
+  max-width: 380px;
+  margin-left: 0;
+  margin-bottom: 40px;
+}
+.home_containerImagesTabs {
+  max-width: 95px;
+  border-radius: 10px;
+  margin-right: 23px;
+}
+.bbb {
+  margin-top: 100px;
+}
+.home_containerTitleTabs {
+  max-width: 210px;
+  padding: 0px;
+}
+.home_titleTabs {
+  color: inherit;
+  text-decoration: none;
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  /* color: #0b0d27; */
+}
+.home_detailTabs {
+  max-width: 770px;
+  max-height: 405px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.containerTab {
+  margin-top: 56px;
+}
+
+.home_imageTabContent {
+  position: absolute;
+  z-index: -1;
+}
+
+.home_tabs {
+  margin-left: 420px;
+  position: relative;
+  font-family: Barlow;
+  max-width: 695px;
+}
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+}
+.btnTimHieuThem {
+  max-width: 205px;
+  max-height: 44px;
+  background: #f8d000;
+  border-radius: 5px;
+}
+
+.counter_homeServices {
+  max-width: 920px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.counter-boxImProducts {
+  max-width: 153px;
+}
+.home_imageTabs {
+  object-fit: cover;
+  margin: 10px 1px 10px 3px;
+}
+.counterNumImProducts {
+  max-width: 94px;
+  font-family: Barlow;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 77px;
+}
+
+.titleCounterNumImProducts {
+  width: 153px;
+  margin-top: 9px;
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.counter-boxSucceProjects {
+  max-width: 158px;
+  margin-left: 35px;
+}
+
+.counterSucceProjects {
+  max-width: 143px;
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 77px;
+}
+
+.titleCounterSucceProjects {
+  width: 158px;
+  margin-top: 9px;
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.counter-boxHaClients {
+  max-width: 112px;
+  margin-left: 75px;
+}
+
+.counterHaClients {
+  max-width: 103px;
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 77px;
+}
+
+.titleCounterHaClients {
+  width: 112px;
+  margin-top: 9px;
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.counter-boxComAwards {
+  max-width: 137px;
+  margin-left: 69px;
+}
+
+.counterComAwards {
+  width: 103px;
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 77px;
+}
+
+.titleCounterComAwards {
+  width: 137px;
+  margin-top: 9px;
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.videoServices {
+  position: absolute;
+  z-index: -1;
+  max-width: 1921px;
+  height: 400px;
+}
+.videoo {
+  /* right: 0;
+  bottom: 0; */
+  /* max-width: 2192px; */
+  max-height: 600px;
+}
+.containerTitleProject {
+  max-width: 838px;
+  margin-top: 237px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.titleProject {
+  max-width: 102px;
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.01em;
+  margin-right: auto;
+  margin-left: auto;
+  white-space: nowrap;
+}
+
+.contentProject {
+  max-width: 838px;
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 74px;
+  text-align: center;
+}
+
+.frame {
+  text-align: center;
+}
+.custom-btn {
+  position: absolute;
+  width: 205px;
+  height: 44px;
+  background: #f8d000;
+  border-radius: 5px;
+  border: 0px solid #000;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-left: 100px;
+}
+.home_textBTN {
+  text-decoration: none;
+  width: 119px;
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  color: #0b0d27;
+}
+.btn-1 {
+  transition: all 0.3s ease;
+}
+.btn-1:hover {
+  box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9,
+    7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001;
+}
+
+/**--  04.04 Báo đen (Khưa)
 --  04.05 Bạn muốn phát triển doanh nghiệp của mình (Khưa)
 --  04.06 Nhà phát triển Web và App (Hằng)
 --  04.07 Contact Us (Hằng)
@@ -35,6 +336,21 @@
 /*01. Fonts */
 
 /*02. Utilities */
+
+/*03. Elements */
+
+/*04. Components */
+/*--  04.01 Tekup Banner (Nam) */
+
+/*--  04.02 The most perfect service (Hoa) */
+
+/*--  04.03 Our services (Quỳnh)*/
+
+/*--  04.04 Báo đen (Khưa) */
+
+/*--  04.05 Bạn muốn phát triển doanh nghiệp của mình (Khưa) */
+
+/*--  04.06 Nhà phát triển Web và App (Hằng) */
 
 /*03. Elements */
 
@@ -150,7 +466,7 @@
   width: 100%;
 }
 .work .img {
-  background:  #C42C2C;
+  background: #c42c2c;
   width: 100%;
   height: 500px;
   position: relative;
@@ -167,14 +483,14 @@
   left: 0;
   right: 0;
   bottom: 0;
-  content: "";
+  content: '';
   z-index: -1;
   background: #000;
   opacity: 0.3;
 }
-.work .text{
+.work .text {
   position: absolute;
-  left: 20%; 
+  left: 20%;
 }
 .work .text h2 {
   font-size: 60px;
@@ -191,12 +507,12 @@
   line-height: 28px;
   color: #ffffff;
   padding: 12px 20px;
-  background: #C42C2C;
+  background: #c42c2c;
   text-align: center;
   text-transform: uppercase;
   transition: all 0.3s;
   border: groove 2px #ffffff;
-  border-radius: 5px ;
+  border-radius: 5px;
   text-decoration: none;
 }
 @media (max-width: 991.98px) {
