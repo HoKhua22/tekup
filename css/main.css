@@ -634,11 +634,255 @@
 }
 
 /*--  04.06 Nhà phát triển Web và App (Hằng) */
+/*--Font Chữ*/
+@font-face {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/barlow/v5/7cHpv4kjgoGqM7E_A8s52Hs.woff2)
+    format("woff2");
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1,
+    U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/barlow/v5/7cHpv4kjgoGqM7E_Ass52Hs.woff2)
+    format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+    U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/barlow/v5/7cHpv4kjgoGqM7E_DMs5.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
 
+/*-- Web & App */
+.webDev {
+  display: flex;
+  justify-content: center;
+  background: #0b0d27;
+}
+.webdevImage {
+  width: 487px;
+  height: 319px;
+  border-radius: 10px;
+  margin-top: 140px;
+  margin-bottom: 347px;
+  margin-left: 375px;
+}
+.textWebdev {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 631px;
+  height: 447px;
+  margin-left: 66px;
+  margin-right: 361px;
+  margin-top: 159px;
+  margin-bottom: 200px;
+}
+
+.textWebdev .topwebDev {
+  width: 98px;
+  height: 19px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.01em;
+  color: #f8d000;
+  margin-bottom: 20px;
+}
+.textWebdev .midwebDev {
+  width: 569px;
+  height: 148px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 74px;
+  letter-spacing: -0.01em;
+  color: #ffffff;
+  /* margin-right: 423px; */
+  margin-bottom: 60px;
+}
+.textWebdev .titleWebdev1 {
+  width: 631px;
+  height: 68px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 34px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.textWebdev .titleWebdev2 {
+  width: 620px;
+  height: 102px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 34px;
+  color: #ffffff;
+}
 /*--  04.07 Contact Us (Hằng) */
+.contact {
+  display: flex;
+  justify-content: center;
+}
 
+.contact .Imagecontact .imgContact {
+  width: 674px;
+  height: 775px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-left: 240px;
+  margin-bottom: 170px;
+}
+.contact .contentContact {
+  width: 631px;
+  height: 571px;
+  margin-left: 100px;
+  margin-bottom: 102px;
+  margin-right: 275px;
+}
+
+.contact .contentContact .text-contact .top-text {
+  width: 255px;
+  height: 19px;
+  color: #0b0d27;
+  text-transform: uppercase;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: -0.01em;
+  margin-bottom: 16px;
+  margin-top: 102px;
+}
+.contact .contentContact .text-contact .mid-text {
+  width: 603px;
+  height: 74px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  letter-spacing: -0.01em;
+  color: #0b0d27;
+  margin-bottom: 30px;
+}
+.contact .contentContact .text-contact .title-text {
+  width: 631px;
+  height: 68px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  color: #000000;
+  margin-bottom: 64px;
+}
+.contact .contentContact .ContactForm {
+  width: 631px;
+  height: 571px;
+}
+.contact .contentContact .ContactForm .form1 {
+  display: flex;
+}
+.contact .contentContact .ContactForm .form1 .input-group1 {
+  width: 280px;
+  outline: none;
+  margin-bottom: 35px;
+  border-bottom: 1px solid #c4c4c4;
+}
+.contact .contentContact .ContactForm .form1 .input-group2 {
+  width: 280px;
+  outline: none;
+  margin-bottom: 35px;
+  margin-left: 30px;
+  border-bottom: 1px solid #c4c4c4;
+}
+.contact .contentContact .ContactForm .form2 {
+  width: 591px;
+  outline: none;
+  margin-bottom: 35px;
+  border-bottom: 1px solid #c4c4c4;
+}
+.contact .contentContact .ContactForm .form3 {
+  width: 591px;
+  outline: none;
+  margin-bottom: 50px;
+  border-bottom: 1px solid #c4c4c4;
+}
+.input--style-1 {
+  outline: none;
+  border: none;
+  font-family: "Barlow";
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+.contact .contentContact .ContactForm .form2 .contactSelect #selectbox {
+  outline: none;
+  border: none;
+  font-family: "Barlow";
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+.contact .contentContact .ContactForm .btn--radius {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 30px;
+  width: 169px;
+  height: 60px;
+  text-transform: uppercase;
+  background: #f8d000;
+  border-radius: 5px;
+}
+.contact .contentContact .textButton {
+  width: 109px;
+  height: 28px;
+  font-family: "Barlow";
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  color: #0b0d27;
+  flex: none;
+  margin: 0px 10px;
+}
+.contact .contentContact .ContactForm .form1 .input-group1 .icon1 {
+  margin-right: 8px;
+  margin-bottom: 2px;
+  border: 0.4px solid #ffffff;
+}
+.contact .contentContact .ContactForm .contactSelect .iconAreas {
+  margin-right: 8px;
+  margin-bottom: 10px;
+}
+
+.contact .contentContact .ContactForm .iconNote {
+  margin-right: 8px;
+  margin-bottom: -1px;
+}
 /*05. Layouts */
 /*--  05.01 Header (Nam) */
 
 /*--  05.04 Footer (Hoa) */
-
