@@ -336,6 +336,7 @@
 --  05.04 Footer (Hoa)
 ---------------------- **/
 /*01. Fonts */
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
 
 /*02. Utilities */
 
@@ -361,12 +362,100 @@
 
 /*--  04.02 The most perfect service (Hoa) */
 
+
+/* PERFECT SERVICE */
+
+.p-4 {
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  -webkit-box-shadow: 0 1px 3px 0 rgb(0 0 0 / 10%), 0 1px 2px 0 rgb(0 0 0 / 6%);
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 10%), 0 1px 2px 0 rgb(0 0 0 / 6%);
+}
+
+.row {
+  --bs-gutter-x: 0rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(var(--bs-gutter-y) * -1);
+  margin-right: calc(var(--bs-gutter-x) * -.5);
+  margin-left: calc(var(--bs-gutter-x) * -.5);
+}
+ 
+.mySlides {
+  padding-bottom: 10px;
+}
+.checked {
+  color: orange;
+}
+
+.flex {
+  display: flex;
+}
+.border-b {
+  border-bottom-width: 1px;
+}
+
+ .w-10 {
+  width: 2.5rem;
+}
+
+.rounded-full {
+  border-radius: 9999px;
+} 
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+.font-semibold {
+  font-weight: 600;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.block {
+  margin-left: 10px;
+}
+/*  */
+
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+} 
+
+/* END PERFECT SERVICE */
+
 /*--  04.03 Our services (Quỳnh)*/
 
 /*--  04.04 Báo đen (Khưa) */
-/* .hot-project {
-  padding: 7em 0;
-} */
 
 .project p {
   font-style: normal;
@@ -659,6 +748,7 @@
   background-color: #f9735b;
 }
 
+
 /*--  04.06 Nhà phát triển Web và App (Hằng) */
 
 /*--  04.07 Contact Us (Hằng) */
@@ -667,3 +757,56 @@
 /*--  05.01 Header (Nam) */
 
 /*--  05.04 Footer (Hoa) */
+
+/* FOOTER */
+.card {
+  padding: 3% 15% 1% 15%;
+  color: white;
+  background-color: #0B0D27;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul > li {
+  padding: 4px;
+}
+
+ul > li:hover {
+  color: #957bda;
+  cursor: pointer;
+}
+
+hr {
+  border-width: 3px;
+}
+
+.social > i {
+  padding: 1%;
+  font-size: 15px;
+}
+
+.social > i:hover {
+  color: #957bda;
+  cursor: pointer;
+}
+
+.policy > div {
+  padding: 4px;
+}
+
+.heading {
+  font-family: 'Barlow Semi Condensed';
+  /* font-size: 22px; */
+  color: white;
+}
+
+.divider {
+  border-top: 2px solid #FFFFFF;
+}
+
+/* END FOOTER */
+
