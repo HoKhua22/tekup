@@ -1,7 +1,9 @@
 <footer class="nk-footer">
   <section class="section section-footer">
-    <div className="container">
-      <p>Footer(Hoa)</p>
+    <div class="container">
+      <div class="row">
+        Footer(Hoa)
+      </div>
     </div>
   </section>
 </footer>

@@ -34,41 +34,318 @@
 ---------------------- **/
 /*01. Fonts */
 
-
-
 /*02. Utilities */
-
 
 /*03. Elements */
 
-
 /*04. Components */
-    /*--  04.01 Tekup Banner (Nam) */
+/*--  04.01 Tekup Banner (Nam) */
 
+/*--  04.02 The most perfect service (Hoa) */
 
-    /*--  04.02 The most perfect service (Hoa) */
+/*--  04.03 Our services (Quỳnh)*/
 
+/*--  04.04 Báo đen (Khưa) */
+/* .hot-project {
+  padding: 7em 0;
+} */
 
-    /*--  04.03 Our services (Quỳnh)*/
+.project p {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+}
 
+.project h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 74px;
+  /* or 116% */
+  text-align: center;
+  color: #000000;
+}
+.slider-project {
+  position: relative;
+}
 
-    /*--  04.04 Báo đen (Khưa) */
+.owl-carousel {
+  position: relative;
+}
+.owl-carousel .owl-item {
+  opacity: 1;
+}
+.owl-carousel .owl-item.active {
+  opacity: 1;
+}
+.owl-carousel .owl-nav {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+}
+.owl-carousel .owl-nav .owl-prev,
+.owl-carousel .owl-nav .owl-next {
+  position: absolute;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  margin-top: 0;
+  color: white !important;
+  -webkit-transition: 0.7s;
+  -o-transition: 0.7s;
+  transition: 0.7s;
+  opacity: 1;
+}
+@media (prefers-reduced-motion: reduce) {
+  .owl-carousel .owl-nav .owl-prev,
+  .owl-carousel .owl-nav .owl-next {
+    -webkit-transition: none;
+    -o-transition: none;
+    transition: none;
+  }
+}
+.owl-carousel .owl-nav .owl-prev span:before,
+.owl-carousel .owl-nav .owl-next span:before {
+  font-size: 30px;
+}
+.owl-carousel .owl-nav .owl-prev {
+  left: 20px;
+}
+.owl-carousel .owl-nav .owl-next {
+  right: 20px;
+}
+.owl-carousel .owl-dots {
+  text-align: center;
+  margin-top: 0;
+  position: absolute;
+  bottom: 20px;
+  right: 0;
+  left: 0;
+}
+.owl-carousel .owl-dots .owl-dot {
+  width: 10px;
+  height: 10px;
+  margin: 5px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.5);
+  position: relative;
+}
+.owl-carousel .owl-dots .owl-dot:hover,
+.owl-carousel .owl-dots .owl-dot:focus {
+  outline: none !important;
+}
+.owl-carousel .owl-dots .owl-dot.active {
+  background: #ff5959;
+}
 
+.owl-carousel.owl-drag .owl-item {
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+}
 
-    /*--  04.05 Bạn muốn phát triển doanh nghiệp của mình (Khưa) */
-    
+.work {
+  width: 100%;
+}
+.work .img {
+  background:  #C42C2C;
+  width: 100%;
+  height: 500px;
+  position: relative;
+  z-index: 0;
+  /* border-radius: 10px; */
+  overflow: hidden;
+  -webkit-box-shadow: 0px 20px 35px -30px rgba(0, 0, 0, 0.26);
+  -moz-box-shadow: 0px 20px 35px -30px rgba(0, 0, 0, 0.26);
+  box-shadow: 0px 20px 35px -30px rgba(0, 0, 0, 0.26);
+}
+.work .img:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: "";
+  z-index: -1;
+  background: #000;
+  opacity: 0.3;
+}
+.work .text{
+  position: absolute;
+  left: 20%; 
+}
+.work .text h2 {
+  font-size: 60px;
+  font-weight: 200;
+  color: #ffffff;
+}
 
-    /*--  04.06 Nhà phát triển Web và App (Hằng) */
+.work .text .text-project a {
+  display: inline-block;
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+  padding: 12px 20px;
+  background: #C42C2C;
+  text-align: center;
+  text-transform: uppercase;
+  transition: all 0.3s;
+  border: groove 2px #ffffff;
+  border-radius: 5px ;
+  text-decoration: none;
+}
+@media (max-width: 991.98px) {
+  .work .text h2 {
+    font-size: 40px;
+  }
+}
+.work .text span {
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: rgba(0, 0, 0, 0.3);
+  text-transform: uppercase;
+  font-weight: 500;
+}
 
+.thumbnail {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  bottom: 0px; /*bottom: -10px;*/
+  left: 30%; /* left: 50%;  */
+  -webkit-transform: translateY(50%) translateX(-50%);
+  -ms-transform: translateY(50%) translateX(-50%);
+  transform: translateY(50%) translateX(-50%);
+  z-index: 99;
+  width: 100%;
+}
+.thumbnail li {
+  display: inline-block;
+}
+.thumbnail li a {
+  display: block;
+  margin: 4px;
+}
+.thumbnail li a img {
+  width: 90px;
+  /* border-radius: 50%; */
+  /* -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+  -webkit-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+  transition: 0.3s all ease;
+  -webkit-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2); */
+}
+.thumbnail li.active a img {
+  border: 4px solid #fff;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+}
+@media (max-width: 767.98px) {
+  .thumbnail li a img {
+    width: 50px;
+  }
+}
 
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+.d-flex {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+.align-items-center {
+  -webkit-box-align: center !important;
+  -ms-flex-align: center !important;
+  align-items: center !important;
+}
+
+.justify-content-center {
+  -webkit-box-pack: center !important;
+  -ms-flex-pack: center !important;
+  justify-content: center !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.my-5 {
+  margin-top: 3rem !important;
+  margin-bottom: 3rem !important;
+}
+
+/*--  04.05 Bạn muốn phát triển doanh nghiệp của mình (Khưa) */
+.section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+#business-development {
+  padding: 80px 0px;
+  background-image: url(../images/home/cta-bg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.development-content h2 {
+  color: #fff;
+  letter-spacing: -0.01em;
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 74px;
+}
+
+.development-content p {
+  font-size: 16px;
+  color: #fff;
+  margin: 15px 0px 25px 0px;
+}
+
+.development-button a {
+  display: inline-block;
+  font-size: 24px;
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 28px;
+  padding: 12px 20px;
+  background: #f8d000;
+  color: #0b0d27;
+  text-align: center;
+  text-transform: uppercase;
+  transition: all 0.3s;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.development-button a:hover {
+  background-color: #f9735b;
+}
+
+/*--  04.06 Nhà phát triển Web và App (Hằng) */
 
 /*--  04.07 Contact Us (Hằng) */
 
-
 /*05. Layouts */
-    /*--  05.01 Header (Nam) */
+/*--  05.01 Header (Nam) */
 
-
-
-    /*--  05.04 Footer (Hoa) */
-
+/*--  05.04 Footer (Hoa) */
