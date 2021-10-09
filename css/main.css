@@ -22,8 +22,28 @@
 --  04.01 Tekup Banner (Nam)
 --  04.02 The most perfect service (Hoa)
 --  04.03 Our services (Quỳnh)
-/* tab */
-/*  */
+--  04.04 Báo đen (Khưa)
+--  04.05 Bạn muốn phát triển doanh nghiệp của mình (Khưa)
+--  04.06 Nhà phát triển Web và App (Hằng)
+--  04.07 Contact Us (Hằng)
+05. Layouts
+--  05.01 Header (Nam)
+--  05.02 Menu
+--  05.03 Sections
+--  05.04 Footer (Hoa)
+---------------------- **/
+/*01. Fonts */
+
+/*02. Utilities */
+
+/*03. Elements */
+
+/*04. Components */
+/*--  04.01 Tekup Banner (Nam) */
+
+/*--  04.02 The most perfect service (Hoa) */
+
+/*--  04.03 Our services (Quỳnh)*/
 .home_containerServices {
   max-width: 1283px;
   margin-bottom: 56px;
@@ -241,7 +261,7 @@
 
 .titleCounterComAwards {
   width: 137px;
-  white-space: nowrap; 
+  white-space: nowrap;
   margin-top: 9px;
   font-family: Barlow;
   font-style: normal;
@@ -325,139 +345,10 @@
     7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001;
 }
 
-/**--  04.04 Báo đen (Khưa)
---  04.05 Bạn muốn phát triển doanh nghiệp của mình (Khưa)
---  04.06 Nhà phát triển Web và App (Hằng)
---  04.07 Contact Us (Hằng)
-05. Layouts
---  05.01 Header (Nam)
---  05.02 Menu
---  05.03 Sections
---  05.04 Footer (Hoa)
----------------------- **/
-/*01. Fonts */
-@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
+/*--  04.04 Hot Project (Khưa) */
 
-/*02. Utilities */
-
-/*03. Elements */
-
-/*04. Components */
-/*--  04.01 Tekup Banner (Nam) */
-
-/*--  04.02 The most perfect service (Hoa) */
-
-/*--  04.03 Our services (Quỳnh)*/
-
-/*--  04.04 Báo đen (Khưa) */
-
-/*--  04.05 Bạn muốn phát triển doanh nghiệp của mình (Khưa) */
-
-/*--  04.06 Nhà phát triển Web và App (Hằng) */
-
-/*03. Elements */
-
-/*04. Components */
-/*--  04.01 Tekup Banner (Nam) */
-
-/*--  04.02 The most perfect service (Hoa) */
-
-
-/* PERFECT SERVICE */
-
-.p-4 {
-  background-color: white;
-  border-radius: 8px;
-  overflow: hidden;
-  -webkit-box-shadow: 0 1px 3px 0 rgb(0 0 0 / 10%), 0 1px 2px 0 rgb(0 0 0 / 6%);
-  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 10%), 0 1px 2px 0 rgb(0 0 0 / 6%);
-}
-
-.row {
-  --bs-gutter-x: 0rem;
-  --bs-gutter-y: 0;
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: calc(var(--bs-gutter-y) * -1);
-  margin-right: calc(var(--bs-gutter-x) * -.5);
-  margin-left: calc(var(--bs-gutter-x) * -.5);
-}
- 
-.mySlides {
-  padding-bottom: 10px;
-}
-.checked {
-  color: orange;
-}
-
-.flex {
-  display: flex;
-}
-.border-b {
-  border-bottom-width: 1px;
-}
-
- .w-10 {
-  width: 2.5rem;
-}
-
-.rounded-full {
-  border-radius: 9999px;
-} 
-
-.text-base {
-  font-size: 1rem;
-  line-height: 1.5rem;
-}
-.font-semibold {
-  font-weight: 600;
-}
-
-.text-xs {
-  font-size: 0.75rem;
-  line-height: 1rem;
-}
-
-.block {
-  margin-left: 10px;
-}
-/*  */
-
-
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
-} 
-
-/* END PERFECT SERVICE */
-
-/*--  04.03 Our services (Quỳnh)*/
-
-/*--  04.04 Báo đen (Khưa) */
-
-.project p {
+.home__project p {
+  font-family: Barlow;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -466,7 +357,8 @@
   text-transform: uppercase;
 }
 
-.project h2 {
+.home__project h2 {
+  font-family: Barlow;
   font-style: normal;
   font-weight: bold;
   font-size: 64px;
@@ -475,26 +367,26 @@
   text-align: center;
   color: #000000;
 }
-.slider-project {
+.home__slider-project {
   position: relative;
 }
 
-.owl-carousel {
+.home__slider-project .owl-carousel {
   position: relative;
 }
-.owl-carousel .owl-item {
+.home__slider-project .owl-carousel .owl-item {
   opacity: 1;
 }
-.owl-carousel .owl-item.active {
+.home__slider-project .owl-carousel .owl-item.active {
   opacity: 1;
 }
-.owl-carousel .owl-nav {
+.home__slider-project .owl-carousel .owl-nav {
   position: absolute;
   top: 50%;
   width: 100%;
 }
-.owl-carousel .owl-nav .owl-prev,
-.owl-carousel .owl-nav .owl-next {
+.home__slider-project .owl-carousel .owl-nav .owl-prev,
+.home__slider-project .owl-carousel .owl-nav .owl-next {
   position: absolute;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
@@ -507,24 +399,24 @@
   opacity: 1;
 }
 @media (prefers-reduced-motion: reduce) {
-  .owl-carousel .owl-nav .owl-prev,
-  .owl-carousel .owl-nav .owl-next {
+  .home__slider-project .owl-carousel .owl-nav .owl-prev,
+  .home__slider-project .owl-carousel .owl-nav .owl-next {
     -webkit-transition: none;
     -o-transition: none;
     transition: none;
   }
 }
-.owl-carousel .owl-nav .owl-prev span:before,
-.owl-carousel .owl-nav .owl-next span:before {
+.home__slider-project .owl-carousel .owl-nav .owl-prev span:before,
+.home__slider-project .owl-carousel .owl-nav .owl-next span:before {
   font-size: 30px;
 }
-.owl-carousel .owl-nav .owl-prev {
+.home__slider-project .owl-carousel .owl-nav .owl-prev {
   left: 20px;
 }
-.owl-carousel .owl-nav .owl-next {
+.home__slider-project .owl-carousel .owl-nav .owl-next {
   right: 20px;
 }
-.owl-carousel .owl-dots {
+.home__slider-project .owl-carousel .owl-dots {
   text-align: center;
   margin-top: 0;
   position: absolute;
@@ -532,7 +424,7 @@
   right: 0;
   left: 0;
 }
-.owl-carousel .owl-dots .owl-dot {
+.home__slider-project .owl-carousel .owl-dots .owl-dot {
   width: 10px;
   height: 10px;
   margin: 5px;
@@ -540,23 +432,23 @@
   background: rgba(255, 255, 255, 0.5);
   position: relative;
 }
-.owl-carousel .owl-dots .owl-dot:hover,
-.owl-carousel .owl-dots .owl-dot:focus {
+.home__slider-project .owl-carousel .owl-dots .owl-dot:hover,
+.home__slider-project .owl-carousel .owl-dots .owl-dot:focus {
   outline: none !important;
 }
-.owl-carousel .owl-dots .owl-dot.active {
+.home__slider-project .owl-carousel .owl-dots .owl-dot.active {
   background: #ff5959;
 }
 
-.owl-carousel.owl-drag .owl-item {
+.home__slider-project .owl-carousel.owl-drag .owl-item {
   -ms-touch-action: pan-y;
   touch-action: pan-y;
 }
 
-.work {
+.home__work-project {
   width: 100%;
 }
-.work .img {
+.home__work-project .img {
   background: #c42c2c;
   width: 100%;
   height: 500px;
@@ -568,28 +460,30 @@
   -moz-box-shadow: 0px 20px 35px -30px rgba(0, 0, 0, 0.26);
   box-shadow: 0px 20px 35px -30px rgba(0, 0, 0, 0.26);
 }
-.work .img:after {
+.home__work-project .img:after {
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  content: '';
+  content: "";
   z-index: -1;
   background: #000;
   opacity: 0.3;
 }
-.work .text {
+
+.home__work-project .text {
   position: absolute;
-  left: 20%;
+  left: 17%;
 }
-.work .text h2 {
+.home__work-project .text h2 {
+  font-family: Barlow;
   font-size: 60px;
   font-weight: 200;
   color: #ffffff;
 }
 
-.work .text .text-project a {
+.home__work-project .text .text-project a {
   display: inline-block;
   font-family: Barlow;
   font-style: normal;
@@ -607,11 +501,11 @@
   text-decoration: none;
 }
 @media (max-width: 991.98px) {
-  .work .text h2 {
+  .home__work-project .text h2 {
     font-size: 40px;
   }
 }
-.work .text span {
+.home__work-project .text span {
   font-size: 12px;
   letter-spacing: 1px;
   color: rgba(0, 0, 0, 0.3);
@@ -619,7 +513,7 @@
   font-weight: 500;
 }
 
-.thumbnail {
+.home__slider-project .thumbnail {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -632,26 +526,17 @@
   z-index: 99;
   width: 100%;
 }
-.thumbnail li {
+.home__slider-project .thumbnail li {
   display: inline-block;
 }
-.thumbnail li a {
+.home__slider-project .thumbnail li a {
   display: block;
   margin: 4px;
 }
-.thumbnail li a img {
+.home__slider-project .thumbnail li a img {
   width: 90px;
-  /* border-radius: 50%; */
-  /* -webkit-transform: scale(0.8);
-  -ms-transform: scale(0.8);
-  transform: scale(0.8);
-  -webkit-transition: 0.3s all ease;
-  -o-transition: 0.3s all ease;
-  transition: 0.3s all ease;
-  -webkit-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
-  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2); */
 }
-.thumbnail li.active a img {
+.home__slider-project .thumbnail li.active a img {
   border: 4px solid #fff;
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
@@ -660,7 +545,7 @@
   box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
 }
 @media (max-width: 767.98px) {
-  .thumbnail li a img {
+  .home__slider-project .thumbnail li a img {
     width: 50px;
   }
 }
@@ -669,40 +554,40 @@
   max-width: 100%;
   height: auto;
 }
-.d-flex {
+.home__work-project .d-flex {
   display: -webkit-box !important;
   display: -ms-flexbox !important;
   display: flex !important;
 }
-.align-items-center {
+.home__work-project .align-items-center {
   -webkit-box-align: center !important;
   -ms-flex-align: center !important;
   align-items: center !important;
 }
 
-.justify-content-center {
+.home__work-project .justify-content-center {
   -webkit-box-pack: center !important;
   -ms-flex-pack: center !important;
   justify-content: center !important;
 }
 
-.text-center {
+.home__slider-project .text-center {
   text-align: center !important;
 }
 
-.my-5 {
+.home__my-5 {
   margin-top: 3rem !important;
   margin-bottom: 3rem !important;
 }
 
 /*--  04.05 Bạn muốn phát triển doanh nghiệp của mình (Khưa) */
-.section {
+/* .section {
   margin: 0;
   padding: 0;
   border: 0;
   outline: 0;
-}
-#business-development {
+} */
+#home__business-development {
   padding: 80px 0px;
   background-image: url(../images/home/cta-bg.jpg);
   background-position: center center;
@@ -711,7 +596,7 @@
   text-align: center;
 }
 
-.development-content h2 {
+.home__development-content h2 {
   color: #fff;
   letter-spacing: -0.01em;
   font-family: Barlow;
@@ -721,13 +606,13 @@
   line-height: 74px;
 }
 
-.development-content p {
+.home__development-content p {
   font-size: 16px;
   color: #fff;
   margin: 15px 0px 25px 0px;
 }
 
-.development-button a {
+.home__development-button a {
   display: inline-block;
   font-size: 24px;
   font-family: Barlow;
@@ -744,10 +629,9 @@
   text-decoration: none;
 }
 
-.development-button a:hover {
+.home__development-button a:hover {
   background-color: #f9735b;
 }
-
 
 /*--  04.06 Nhà phát triển Web và App (Hằng) */
 
@@ -757,56 +641,4 @@
 /*--  05.01 Header (Nam) */
 
 /*--  05.04 Footer (Hoa) */
-
-/* FOOTER */
-.card {
-  padding: 3% 15% 1% 15%;
-  color: white;
-  background-color: #0B0D27;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-ul > li {
-  padding: 4px;
-}
-
-ul > li:hover {
-  color: #957bda;
-  cursor: pointer;
-}
-
-hr {
-  border-width: 3px;
-}
-
-.social > i {
-  padding: 1%;
-  font-size: 15px;
-}
-
-.social > i:hover {
-  color: #957bda;
-  cursor: pointer;
-}
-
-.policy > div {
-  padding: 4px;
-}
-
-.heading {
-  font-family: 'Barlow Semi Condensed';
-  /* font-size: 22px; */
-  color: white;
-}
-
-.divider {
-  border-top: 2px solid #FFFFFF;
-}
-
-/* END FOOTER */
 
