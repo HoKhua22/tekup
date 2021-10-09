@@ -241,10 +241,12 @@
 
 .titleCounterComAwards {
   width: 137px;
+  white-space: nowrap; 
   margin-top: 9px;
   font-family: Barlow;
   font-style: normal;
   font-weight: 600;
+  padding: 0;
   font-size: 18px;
   line-height: 22px;
 }
