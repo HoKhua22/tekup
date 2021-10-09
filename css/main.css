@@ -362,10 +362,9 @@
 
 /*--  04.02 The most perfect service (Hoa) */
 
+
 /* PERFECT SERVICE */
 
-
-/*  */
 .p-4 {
   background-color: white;
   border-radius: 8px;
@@ -425,12 +424,6 @@
 /*  */
 
 
-/* Slideshow container */
-.slideshow-container {
-  /* position: relative; */
-  /* margin: auto; */
-}
-
 /* Caption text */
 .text {
   color: #f2f2f2;
@@ -463,16 +456,6 @@
 /*--  04.03 Our services (Quỳnh)*/
 
 /*--  04.04 Báo đen (Khưa) */
-
-/*--  04.05 Bạn muốn phát triển doanh nghiệp của mình (Khưa) */
-
-/*--  04.06 Nhà phát triển Web và App (Hằng) */
-/*--  04.03 Our services (Quỳnh)*/
-
-/*--  04.04 Báo đen (Khưa) */
-/* .hot-project {
-  padding: 7em 0;
-} */
 
 .project p {
   font-style: normal;
@@ -703,63 +686,6 @@
   justify-content: center !important;
 }
 
-/*05. Layouts */
-/*--  05.01 Header (Nam) */
-
-/*--  05.04 Footer (Hoa) */
-
-
- /* FOOTER */
-.card {
-  padding: 3% 15% 1% 15%;
-  color: white;
-  background-color: #0B0D27;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-ul > li {
-  padding: 4px;
-}
-
-ul > li:hover {
-  color: #957bda;
-  cursor: pointer;
-}
-
-hr {
-  border-width: 3px;
-}
-
-.social > i {
-  padding: 1%;
-  font-size: 15px;
-}
-
-.social > i:hover {
-  color: #957bda;
-  cursor: pointer;
-}
-
-.policy > div {
-  padding: 4px;
-}
-
-.heading {
-  font-family: 'Barlow Semi Condensed';
-  /* font-size: 22px; */
-  color: white;
-}
-
-.divider {
-  border-top: 2px solid #FFFFFF;
-}
-
-/* END FOOTER */
 .text-center {
   text-align: center !important;
 }
@@ -822,6 +748,7 @@ hr {
   background-color: #f9735b;
 }
 
+
 /*--  04.06 Nhà phát triển Web và App (Hằng) */
 
 /*--  04.07 Contact Us (Hằng) */
@@ -830,3 +757,56 @@ hr {
 /*--  05.01 Header (Nam) */
 
 /*--  05.04 Footer (Hoa) */
+
+/* FOOTER */
+.card {
+  padding: 3% 15% 1% 15%;
+  color: white;
+  background-color: #0B0D27;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul > li {
+  padding: 4px;
+}
+
+ul > li:hover {
+  color: #957bda;
+  cursor: pointer;
+}
+
+hr {
+  border-width: 3px;
+}
+
+.social > i {
+  padding: 1%;
+  font-size: 15px;
+}
+
+.social > i:hover {
+  color: #957bda;
+  cursor: pointer;
+}
+
+.policy > div {
+  padding: 4px;
+}
+
+.heading {
+  font-family: 'Barlow Semi Condensed';
+  /* font-size: 22px; */
+  color: white;
+}
+
+.divider {
+  border-top: 2px solid #FFFFFF;
+}
+
+/* END FOOTER */
+
