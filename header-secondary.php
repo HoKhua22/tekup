@@ -47,7 +47,6 @@
         <div class="main_footer">footer</div>
       </div>
     </div>
-    <?php get_template_part('template-parts/home/home', 'banner'); ?>
   </header>
   <style>
     .menu {
